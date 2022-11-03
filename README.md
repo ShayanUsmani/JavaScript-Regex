@@ -54,3 +54,6 @@
 
 **For Date and Time: (01-12-2022 12:00)**
 /\d\d-\d\d-\d\d\d\d \d\d:\d\d/
+
+**For Numbers and Comma Only:**
+^[0-9,]*$
