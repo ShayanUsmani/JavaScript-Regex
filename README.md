@@ -37,7 +37,7 @@
 /(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|jpeg|gif|png|svg|mp4)/
 
 **For Youtube Url:**
-/((https?):\/\/)?(www.)?[a-z0-9]+(\.[a-z]{2,}){1,3}(#?\/?[a-zA-Z0-9#]+)*\/?(\?[a-zA-Z0-9-_]+=[a-zA-Z0-9-%_]+&?)?$/
+/^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube(-nocookie)?\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$/
 
 **For files Url: (pdf, doc, docx, msword)**
 /(http(s?):)([/|.|\w|\s|-])*\.(?:pdf|doc|docx|msword)/
