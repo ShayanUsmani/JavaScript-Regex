@@ -24,6 +24,9 @@
 **For Dubai Phone Only:**
 /^\+971(?:[0-9]●?){8,8}[0-9]$/
 
+**For Country Code:**
+/^(\+?\d{1,3}|\d{1,4})$/
+
 **For Alphanumeric Special Characters:**
 /^[a-z0-9-.]+$/
 
